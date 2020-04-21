@@ -3,7 +3,7 @@ using namespace std;
 
 template <class T>
 class ListNode {
-  priavte:
+  private:
 
   public:
       T data;
@@ -11,13 +11,14 @@ class ListNode {
       ListNode<T> *prev;
 
       ListNode(); //Constructor
-      ListNode(T data);
+      ListNode(T value);
       ~ListNode(); //Destructor
 };
 
 template <class T>
 ListNode<T>::ListNode(){
-
+  next = NULL;
+  prev = NULL;
 }
 
 template <class T>
@@ -29,6 +30,5 @@ ListNode<T>::ListNode(T value){
 
 template <class T>
 ListNode<T>::~ListNode(){
-  delete next;
-  delete prev;
+
 }

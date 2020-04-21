@@ -16,7 +16,7 @@ class GenQueue{
     T peekBack();
     bool isEmpty();
     void printList();
-}
+};
 
 template <class T>
 GenQueue<T>::GenQueue(){
@@ -31,14 +31,6 @@ GenQueue<T>::~GenQueue(){
 
 template <class T>
 void GenQueue<T>::enqueue(T data){
-  // ListNode<T> *newNode = new ListNode(data);
-  // if(linkedList.isEmpty()){
-  //   linkedList->front->next = newNode;
-  // }
-  // else{
-  //   linkedList->back->next = newNode;
-  //   newNode->prev = back;
-  // }
   linkedList.insertBack(data);
 }
 
