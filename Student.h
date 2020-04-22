@@ -11,18 +11,22 @@ class Student{
     int waitTime;
     int windowTime;
     int entryTime;
+    int idleTime;
 };
 
 Student::Student(){
   windowTime = 0;
   entryTime = 0;
   waitTime = 0;
+  idleTime = 0;
+
 }
 
 Student::Student(int window, int entry){
   windowTime = window;
   entryTime = entry;
   waitTime = 0;
+  idleTime = 0;
 }
 
 Student::~Student(){
