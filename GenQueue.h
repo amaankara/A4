@@ -1,3 +1,10 @@
+/*
+Amaan Karachiwala
+2326810
+karachiwala@chapman.edu
+CPSC 350-01
+Assignment 4
+*/
 #include "DoublyLinkedList.h"
 
 template <class T>

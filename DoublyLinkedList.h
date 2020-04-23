@@ -1,4 +1,10 @@
-//#include "ListNode.h"
+/*
+Amaan Karachiwala
+2326810
+karachiwala@chapman.edu
+CPSC 350-01
+Assignment 4
+*/
 #include <iostream>
 using namespace std;
 
